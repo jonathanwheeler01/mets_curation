@@ -1,11 +1,25 @@
 <?php
+/* 
+ *    This file is part of data_curation.
+
+ *    data_curation is free software: you can redistribute it and/or modify
+ *    it under the terms of the Apache License, Version 2.0 (See License at the
+ *    top of the directory).
+
+ *    data_curation is distributed in the hope that it will be useful,
+ *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+ *    You should have received a copy of the Apache License, Version 2.0
+ *    along with data_curation.  If not, see <http://www.apache.org/licenses/LICENSE-2.0.html>.
+ */
 /**
  * 
  * A class to generate Dublin Core descriptive metadata, either
  * as a standalone XML file or to be incorporated into packacges
  * created using Rob Olendorf's 'data_curation' application
  * (@link https://github.com/olendorf/data_curation) and based
- * on his API. Dublin Core ontology currently restricted to simple DC.
+ * on his API. Dublin Core elements currently restricted to simple DC.
  * 
  * @author Jon Wheeler
  * 
